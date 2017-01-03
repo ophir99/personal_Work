@@ -1,0 +1,61 @@
+body{
+	/*background-color: rgba(48, 255, 34, 0.62); */
+	background-color: #000;
+	height: 100%;
+	
+}
+html{
+	
+}
+#big{
+	
+	
+	
+	
+}
+
+nav .brand-logo{
+	font-weight: 300;
+	font-size: 1.6em;
+	color: #0bff15;
+}
+
+.collapsible{
+	border:0;
+	box-shadow: none;
+}
+nav ul li a{
+	color: #FFF;
+}
+.tabs .tab a{
+	color: #3405e8;
+}
+.tabs .tab a.active{
+	background-color: #f1f1f1;
+	color: #3405e8;
+	border-bottom: 0px;
+} 
+.tabs .tab a:hover{
+	background-color: #000;
+	color: #FFF;
+}
+
+#job_con{
+	background: #fc00ff; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fc00ff , #00dbde); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fc00ff , #00dbde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 2px;
+height: 600px;
+overflow: auto;
+scroll-behavior: smooth;
+}
+
+#job_con::-webkit-scrollbar { 
+    display: none; 
+}
+.collapsible-header, .collapsible-body{
+	border-bottom: 1px dotted rgba(221, 221, 221, 0.55);
+}
+.collapsible-header::last-child{
+	border-bottom: 0px solid rgba(221, 221, 221, 0.55);	
+}
